@@ -483,6 +483,11 @@ button{
     }
 }
 
+.fa-sort-down{
+    text-decoration: none;
+    text-align: center;
+}
+
 /* resume */
 #resume{
     width:100%;
