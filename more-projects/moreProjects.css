@@ -145,46 +145,6 @@ button{
     clear:both;
 }
 
-.content{
-    background-image: linear-gradient(#c7d1ff,#d5dcff,white);
-    border:3px solid #C9C6C6;
-    border-radius:20px;
-    padding:0;
-}
-
-.overview{
-    text-decoration: none;
-}
-
-.descrip{
-    padding:10px;
-}
-
-.iconB{
-    display:block;
-    max-width:400px;
-    max-height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-top: 0;
-}
-
-.iconB li{
-    list-style: none;
-    display: inline-block;
-    font-size: 90px;
-    width:100px;
-    height: 100px;
-	line-height: 100px;
-}
-
-.fa-chart-pie{
-    color:black;
-    border-radius: 100px;
-    height:300px;
-    width:300px;
-}
-
 @media screen and (max-width:850px){
     .column{
         width:50%
@@ -195,4 +155,64 @@ button{
     .column{
         width:100%;
     }
+}
+
+/* Project container colors  */
+.content{
+    background-image: linear-gradient(#c7d1ff,#d5dcff,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+.content-blue{
+    background-image: linear-gradient(#c7d1ff,#d5dcff,#e3e8ff,#f1f3ff,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+/* Inside project BRIEF description */
+.overview{  text-decoration: none;   }
+
+.descrip{  padding:10px;  }
+
+.icon{
+    display:center;
+    max-width:400px;
+    max-height: 150px;
+    padding-top: 0;
+}
+
+.icon li{
+    padding:0px 20% 20% 20%;
+    list-style: none;
+    display: center;
+    font-size: 100px;
+    padding-bottom:30%;
+}
+
+.fa-chart-pie{
+    color:#9dafff;
+    border-radius: 100px;
+    height:300px;
+    width:300px;
+}
+
+/* project long description */
+
+.extra-content{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+    /* links inside the dropdown */
+.extra-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
 }

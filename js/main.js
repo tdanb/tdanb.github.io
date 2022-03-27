@@ -1,6 +1,6 @@
 // constants
 var typeWait = 14000;
-var selfAdjectives = ["Aspiring Programmer","Student","Advocate","Web Developer","Story-teller"];
+var selfAdjectives = ["Aspiring Programmer","Student","Advocate","Web Developer","Story-teller","Problem Solver"];
 
 // global variables
 var shifting;
