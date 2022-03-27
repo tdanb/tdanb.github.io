@@ -483,9 +483,20 @@ button{
     }
 }
 
-.fa-sort-down{
+.more-projects .fa-sort-down{
     text-decoration: none;
     text-align: center;
+    display:inline;
+    padding: 0 45%;
+    color:#d3d3d3;
+}
+
+.more-projects a:before{
+    color:#d3d3d3;
+}
+
+.more-projects a:hover{
+    color:#b1b1b1;
 }
 
 /* resume */

@@ -15,6 +15,18 @@ body{
 .yellow{color:#F4D337}
 .green{color:#58BB7B}
 
+h3{
+    display:inline;
+    padding-right:150px;
+}
+
+
+h2{
+    display:inline;
+    font-size:15px;
+    font-weight: lighter;
+}
+
 /* menu */
 /* drop down menu */
 button{
@@ -110,7 +122,7 @@ button{
 
 .column img{
     max-width:400px;
-    max-height: 200px;;
+    max-height: 200px;
 }
 
 .row{
@@ -138,6 +150,37 @@ button{
     padding:10px;
     border:3px solid #C9C6C6;
     border-radius:20px;
+}
+
+.overview{
+    text-decoration: none;
+}
+
+.descrip{
+    background-color: white;
+}
+
+.icon{
+    display:block;
+    max-width:400px;
+    max-height: 200px;
+    background-image: linear-gradient(blue,white);
+}
+
+.icon li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    width:100px;
+    height: 100px;
+	line-height: 100px;
+}
+
+.fa-chart-pie{
+    border-color:black;
+    border-radius: 100px;
+    height:150px;
+    width:150px;
 }
 
 @media screen and (max-width:850px){
