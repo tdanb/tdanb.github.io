@@ -34,6 +34,19 @@ ul, li{
     padding:0;
 }
 
+h3{
+    padding:0;
+    margin:0;
+}
+
+
+h2{
+    display:inline;
+    font-size:15px;
+    font-weight: lighter;
+    padding:0;
+}
+
 .blue{color:#748DFF}
 .red{color:#E85C51}
 .yellow{color:#F4D337}
@@ -439,11 +452,6 @@ button{
     font-weight:lighter;
 }
 
-.column img{
-    max-width:400px;
-    max-height: 200px;;
-}
-
 .row{
     margin:0px 25px;
     padding:8px;
@@ -464,13 +472,6 @@ button{
     clear:both;
 }
 
-.content{
-    background-color:white;
-    padding:10px;
-    border:3px solid #C9C6C6;
-    border-radius:20px;
-}
-
 @media screen and (max-width:850px){
     .column{
         width:50%
@@ -483,11 +484,74 @@ button{
     }
 }
 
+/* Project container colors  */
+.content-red{
+    background-image: linear-gradient(#f5bdb9,#f8ceca,#fadedc,#fceeed,white,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+.content-blue{
+    background-image: linear-gradient(#c7d1ff,#d5dcff,#e3e8ff,#f1f3ff,white,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+.content-green{
+    background-image: linear-gradient(#bce3ca,#ccead7,#ddf1e4,#eef8f1,white,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+.content-yellow{
+    background-image: linear-gradient(#faedaf,#fbf1c3, #fcf6d7 ,#fdfaeb, white,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+/* Inside project BRIEF description */
+.overview{  text-decoration: none;   }
+
+.descrip{  padding:10px;  }
+
+.icon{
+    display:center;
+    max-width:400px;
+    max-height: 150px;
+    padding-top: 0;
+    text-decoration: none;
+    padding-left:50px;
+}
+
+.icon li{
+    padding:0px 20% 20% 20%;
+    list-style:none;
+    text-decoration: none;
+    display: center;
+    font-size: 100px;
+    padding-bottom:30%;
+}
+
+.icon-blue{ color:#9dafff; }
+.icon-red{ color:#ee8c85; }
+.icon-green{ color:#8acfa2; }
+.icon-yellow{ color:#f7e073; }
+
+.fa-chart-pie{
+    border-radius: 100px;
+    height:300px;
+    width:300px;
+}
+
 .more-projects .fa-sort-down{
     text-decoration: none;
     text-align: center;
     display:inline;
-    padding: 0 45%;
+    padding: 0 41%;
     color:#d3d3d3;
 }
 
@@ -497,6 +561,13 @@ button{
 
 .more-projects a:hover{
     color:#b1b1b1;
+}
+
+.more-projects p{
+    font-size: 18px;
+    font-weight:lighter;
+    letter-spacing: 5px;
+    display:inline;
 }
 
 /* resume */

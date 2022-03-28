@@ -16,8 +16,8 @@ body{
 .green{color:#58BB7B}
 
 h3{
-    display:inline;
-    padding-right:150px;
+    padding:0;
+    margin:0;
 }
 
 
@@ -25,6 +25,7 @@ h2{
     display:inline;
     font-size:15px;
     font-weight: lighter;
+    padding:0;
 }
 
 /* menu */
@@ -116,13 +117,8 @@ button{
     font-size:12px;
     font-family:'Open sans', sans-serif;
     letter-spacing:normal;
-    color:#cfcfcf;
+    color:#808080;
     font-weight:lighter;
-}
-
-.column img{
-    max-width:400px;
-    max-height: 200px;
 }
 
 .row{
@@ -158,15 +154,29 @@ button{
 }
 
 /* Project container colors  */
-.content{
-    background-image: linear-gradient(#c7d1ff,#d5dcff,white);
+.content-red{
+    background-image: linear-gradient(#f5bdb9,#f8ceca,#fadedc,#fceeed,white,white);
     border:3px solid #C9C6C6;
     border-radius:20px;
     padding:0;
 }
 
 .content-blue{
-    background-image: linear-gradient(#c7d1ff,#d5dcff,#e3e8ff,#f1f3ff,white);
+    background-image: linear-gradient(#c7d1ff,#d5dcff,#e3e8ff,#f1f3ff,white,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+.content-green{
+    background-image: linear-gradient(#bce3ca,#ccead7,#ddf1e4,#eef8f1,white,white);
+    border:3px solid #C9C6C6;
+    border-radius:20px;
+    padding:0;
+}
+
+.content-yellow{
+    background-image: linear-gradient(#faedaf,#fbf1c3, #fcf6d7 ,#fdfaeb, white,white);
     border:3px solid #C9C6C6;
     border-radius:20px;
     padding:0;
@@ -192,8 +202,12 @@ button{
     padding-bottom:30%;
 }
 
+.icon-blue{ color:#9dafff; }
+.icon-red{ color:#ee8c85; }
+.icon-green{ color:#8acfa2; }
+.icon-yellow{ color:#f7e073; }
+
 .fa-chart-pie{
-    color:#9dafff;
     border-radius: 100px;
     height:300px;
     width:300px;
